@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+
+body {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.font-maker{
+  font-family: "Permanent Marker", cursive;
+}
+
+.font-speacial{
+  font-family: "Special Elite", system-ui;
+}
+
+  
+
+
+
+

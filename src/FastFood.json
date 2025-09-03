@@ -1,0 +1,496 @@
+[
+  {
+    "id": "street-1",
+    "name": "Khaman Dhokla",
+    "image": "../assets/khaman.jpg",
+    "price": "£4.50",
+    "ingredients": [
+      "Gram flour (besan)",
+      "Yogurt",
+      "Turmeric",
+      "Green chili",
+      "Ginger",
+      "Eno fruit salt",
+      "Mustard seeds",
+      "Curry leaves",
+      "Sugar",
+      "Lemon juice"
+    ]
+  },
+  {
+    "id": "street-2",
+    "name": "Fafda",
+    "image": "Fafda.jpg",
+    "price": "£4",
+    "ingredients": [
+      "Gram flour (besan)",
+      "Turmeric",
+      "Carom seeds",
+      "Salt",
+      "Oil"
+    ]
+  },
+  {
+    "id": "street-3",
+    "name": "Sev Khamani",
+    "image": "./assets/streetfood/Sev-khamni.jpg",
+    "price": "£5.50",
+    "ingredients": [
+      "Chana dal",
+      "Green chili",
+      "Ginger",
+      "Garlic",
+      "Mustard seeds",
+      "Curry leaves",
+      "Sugar",
+      "Lemon juice",
+      "Fresh coriander",
+      "Sev"
+    ]
+  },
+  {
+    "id": "street-4",
+    "name": "Gathiya",
+    "image": "../assets/streetfood/gathiya.jpg",
+    "price": "£4",
+    "ingredients": [
+      "Gram flour (besan)",
+      "Carom seeds",
+      "Turmeric",
+      "Asafoetida",
+      "Salt",
+      "Oil"
+    ]
+  },
+  {
+    "id": "street-5",
+    "name": "Patra (Alu Vadi)",
+    "image": "../assets/streetfood/patra.jpg",
+    "price": "£5",
+    "ingredients": [
+      "Colocasia leaves",
+      "Gram flour (besan)",
+      "Tamarind pulp",
+      "Jaggery",
+      "Green chili",
+      "Ginger",
+      "Sesame seeds",
+      "Curry leaves"
+    ]
+  },
+  {
+    "id": "street-6",
+    "name": "Handvo",
+    "image": "/assets/handvo.jpg",
+    "price": "£5.50",
+    "ingredients": [
+      "Rice",
+      "Chana dal",
+      "Urad dal",
+      "Bottle gourd",
+      "Green chili",
+      "Ginger",
+      "Turmeric",
+      "Mustard seeds",
+      "Curry leaves"
+    ]
+  },
+  {
+    "id": "street-7",
+    "name": "Thepla",
+    "image": "../assets/streetfood/thepla.jpg",
+    "price": "£1 (2 pcs)",
+    "ingredients": [
+      "Wheat flour",
+      "Fenugreek leaves (methi)",
+      "Yogurt",
+      "Turmeric",
+      "Carom seeds",
+      "Red chili powder",
+      "Oil"
+    ]
+  },
+  {
+    "id": "street-8",
+    "name": "Lilva Kachori",
+    "image": "./assets/streetfood/lilvakachori.jpg",
+    "price": "£5",
+    "ingredients": [
+      "All-purpose flour",
+      "Green pigeon peas (lilva)",
+      "Green chili",
+      "Ginger",
+      "Garlic",
+      "Fennel seeds",
+      "Coriander powder",
+      "Oil"
+    ]
+  },
+  {
+    "id": "street-9",
+    "name": "Bhakarwadi",
+    "image": "../assets/streetfood/bharvadi.jpg",
+    "price": "£6",
+    "ingredients": [
+      "Wheat flour",
+      "Gram flour",
+      "Poppy seeds",
+      "Sesame seeds",
+      "Coriander seeds",
+      "Tamarind",
+      "Jaggery",
+      "Red chili powder"
+    ]
+  },
+  {
+    "id": "street-10",
+    "name": "Muthiya",
+    "image": "../assets/streetfood/muthiya.jpg",
+    "price": "£5",
+    "ingredients": [
+      "Bottle gourd",
+      "Fenugreek leaves",
+      "Wheat flour",
+      "Gram flour",
+      "Turmeric",
+      "Green chili",
+      "Sesame seeds",
+      "Mustard seeds",
+      "Oil"
+    ]
+  },
+  {
+    "id": "street-11",
+    "name": "Khandvi",
+    "image": "../assets/streetfood/khandvi.jpg",
+    "price": "£5",
+    "ingredients": [
+      "Gram flour (besan)",
+      "Yogurt",
+      "Turmeric",
+      "Ginger paste",
+      "Green chili paste",
+      "Mustard seeds",
+      "Sesame seeds",
+      "Curry leaves"
+    ]
+  },
+  {
+    "id": "street-12",
+    "name": "Dabeli",
+    "image": "../assets/dabeli.webp",
+    "price": "£4.50",
+    "ingredients": [
+      "Pav bread",
+      "Potato",
+      "Dabeli masala",
+      "Peanuts",
+      "Pomegranate seeds",
+      "Tamarind chutney",
+      "Garlic chutney",
+      "Sev"
+    ]
+  },
+  {
+    "id": "street-13",
+    "name": "Locho",
+    "image": "../assets/streetfood/locho.jpg",
+    "price": "£4.50",
+    "ingredients": [
+      "Chana dal",
+      "Urad dal",
+      "Green chili",
+      "Ginger",
+      "Mustard seeds",
+      "Curry leaves",
+      "Sev",
+      "Butter"
+    ]
+  },
+  {
+    "id": "street-14",
+    "name": "Khakhra",
+    "image": "../assets/streetfood/khakhara.jpg",
+    "price": "£4",
+    "ingredients": [
+      "Wheat flour",
+      "Fenugreek leaves",
+      "Cumin seeds",
+      "Turmeric",
+      "Salt",
+      "Oil"
+    ]
+  },
+  {
+    "id": "street-15",
+    "name": "Bhajiya",
+    "image": "../assets/streetfood/bhajiya.jpg",
+    "price": "£4",
+    "ingredients": [
+      "Gram flour (besan)",
+      "Potato/Brinjal/Chili/Spinach",
+      "Turmeric",
+      "Red chili powder",
+      "Salt",
+      "Oil"
+    ]
+  },
+  {
+    "id": "street-16",
+    "name": "Onion Bhajiya",
+    "image": "../assets/streetfood/onionbhajiya.jpg",
+    "price": "£4.50",
+    "ingredients": [
+      "Onion",
+      "Gram flour (besan)",
+      "Green chili",
+      "Red chili powder",
+      "Turmeric",
+      "Salt",
+      "Oil"
+    ]
+  },
+  {
+    "id": "street-17",
+    "name": "Bataka Puri",
+    "image": "../assets/streetfood/batakapuri.jpg",
+    "price": "£4",
+    "ingredients": [
+      "Wheat flour",
+      "Potato",
+      "Green chili",
+      "Ginger",
+      "Cumin seeds",
+      "Turmeric",
+      "Salt",
+      "Oil"
+    ]
+  },
+  {
+    "id": "street-18",
+    "name": "Mix Bhajiya",
+    "image": "../assets/streetfood/mixbhajiya.jpg",
+    "price": "£5",
+    "ingredients": [
+      "Gram flour (besan)",
+      "Potato",
+      "Onion",
+      "Brinjal",
+      "Green chili",
+      "Spinach",
+      "Red chili powder",
+      "Turmeric",
+      "Salt",
+      "Oil"
+    ]
+  },
+  {
+    "id": "street-19",
+    "name": "Vada Pav",
+    "image": "../assets/vadapau.jpg",
+    "price": "£2 each",
+    "ingredients": [
+      "Pav bread",
+      "Potato",
+      "Green chili",
+      "Garlic",
+      "Ginger",
+      "Turmeric",
+      "Red chili powder",
+      "Gram flour (for vada)",
+      "Oil"
+    ]
+  },
+  {
+    "id": "street-20",
+    "name": "Sev Usal",
+    "image": "../assets/streetfood/sevusal.jpg",
+    "price": "£5.50",
+    "ingredients": [
+      "White peas (vatana)",
+      "Onion",
+      "Tomato",
+      "Green chili",
+      "Ginger",
+      "Garlic",
+      "Usal masala",
+      "Sev",
+      "Coriander leaves"
+    ]
+  },
+  {
+    "id": "street-21",
+    "name": "Bataka Pauva",
+    "image": "../assers/streetfood/batakapauva.jpg",
+    "price": "£4",
+    "ingredients": [
+      "Flattened rice (poha)",
+      "Potato",
+      "Green chili",
+      "Curry leaves",
+      "Mustard seeds",
+      "Turmeric",
+      "Lemon juice",
+      "Coriander leaves"
+    ]
+  },
+  {
+    "id": "street-22",
+    "name": "Puna Misal",
+    "image": "../assets/streetfood/punamisal.jpg",
+    "price": "£6",
+    "ingredients": [
+      "Sprouted moth beans",
+      "Onion",
+      "Tomato",
+      "Ginger garlic paste",
+      "Red chili powder",
+      "Goda masala",
+      "Farsan/Sev",
+      "Coriander",
+      "Pav bread"
+    ]
+  },
+  {
+    "id": "street-23",
+    "name": "Samosa",
+    "image": "../assets/streetfood/samosa.jpg",
+    "price": "80p each",
+    "ingredients": [
+      "All-purpose flour",
+      "Potato",
+      "Green peas",
+      "Green chili",
+      "Ginger",
+      "Coriander powder",
+      "Garam masala",
+      "Oil"
+    ]
+  },
+  {
+    "id": "street-24",
+    "name": "Samosa Chaat",
+    "image": "https://example.com/images/samosa-chaat.jpg",
+    "price": "£4",
+    "ingredients": [
+      "Samosa (2 pieces, broken into chunks)",
+      "Boiled chickpeas",
+      "Boiled potatoes (diced)",
+      "Onions (finely chopped)",
+      "Tomatoes (finely chopped)",
+      "Green chilies (optional, chopped)",
+      "Fresh coriander leaves (chopped)",
+      "Tamarind chutney",
+      "Mint-coriander chutney",
+      "Yogurt (whisked)",
+      "Chaat masala",
+      "Roasted cumin powder",
+      "Red chili powder",
+      "Sev (for garnish)"
+    ]
+  },
+  {
+    "id": "street-25",
+    "name": "Papdi Chaat",
+    "image": "https://example.com/images/papdi-chaat.jpg",
+    "price": "£4",
+    "ingredients": [
+      "Crispy papdi (8–10 pieces)",
+      "Boiled chickpeas",
+      "Boiled potatoes (diced)",
+      "Onions (finely chopped)",
+      "Tomatoes (finely chopped)",
+      "Fresh coriander leaves (chopped)",
+      "Tamarind chutney",
+      "Mint-coriander chutney",
+      "Yogurt (whisked)",
+      "Chaat masala",
+      "Roasted cumin powder",
+      "Red chili powder",
+      "Sev (for garnish)",
+      "Pomegranate seeds (optional, for garnish)"
+    ]
+  },
+  {
+    "id": "street-26",
+    "name": "Puff",
+    "image": "../assets/streetfood/puff.jpg",
+    "price": "£2.50 each",
+    "ingredients": [
+      "Puff pastry",
+      "Potato",
+      "Onion",
+      "Green chili",
+      "Ginger",
+      "Coriander powder",
+      "Turmeric",
+      "Salt",
+      "Oil"
+    ]
+  },
+  {
+    "id": "street-27",
+    "name": "Aloo Paratha",
+    "image": "../assets/streetfood/alooparatha.jpg",
+    "price": "£1.99 (2 pcs)",
+    "ingredients": [
+      "Wheat flour",
+      "Potato",
+      "Green chili",
+      "Coriander leaves",
+      "Ginger",
+      "Cumin seeds",
+      "Butter",
+      "Salt"
+    ]
+  },
+  {
+    "id": "street-28",
+    "name": "Dahi Vada",
+    "image": "../assets/streetfood/dahivada.jpg",
+    "price": "£5",
+    "ingredients": [
+      "Urad dal",
+      "Yogurt",
+      "Tamarind chutney",
+      "Mint-coriander chutney",
+      "Cumin powder",
+      "Chaat masala",
+      "Red chili powder",
+      "Coriander leaves"
+    ]
+  },
+  {
+    "id": "street-29",
+    "name": "Maggi",
+    "image": "../assets/streetfood/maggi.jpg",
+    "price": "£3.50",
+    "ingredients": [
+      "Maggi noodles",
+      "Water",
+      "Maggi masala",
+      "Green chili",
+      "Onion",
+      "Tomato",
+      "Butter"
+    ]
+  },
+  {
+    "id": "street-30",
+    "name": "Noodles",
+    "image": "../assets/streetfood/noodles.jpg",
+    "price": "£5",
+    "ingredients": [
+      "Noodles",
+      "Capsicum",
+      "Onion",
+      "Carrot",
+      "Cabbage",
+      "Soy sauce",
+      "Chili sauce",
+      "Vinegar",
+      "Salt",
+      "Oil"
+    ]
+  }
+]

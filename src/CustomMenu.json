@@ -1,0 +1,177 @@
+[
+  {
+    "id": "custom-1",
+    "name": "Undhiyu",
+    "price": 6.80,
+    "image": "/assets/Curries/undhiyu.jpg",
+    "ingredients": ["Surti beans", "Purple yam", "Potato", "Raw banana", "Eggplant", "Spices", "Oil"]
+  },
+  {
+    "id": "custom-2",
+    "name": "Batata ni Suki bhaji Shaak",
+    "price": 6.20,
+    "image": "/assets/Curries/sukibhaji.jpg",
+    "ingredients": ["Potato", "Mustard seeds", "Green chili", "Turmeric", "Coriander leaves", "Oil"]
+  },
+  {
+    "id": "custom-3",
+    "name": "Ringan-Batata Nu Shaak",
+    "price": 7.0,
+    "image": "/assets/Curries/ringan_batatanu_shak.jpg",
+    "ingredients": ["Brinjal", "Garlic", "Green chili", "Coriander", "Spices"]
+  },
+  {
+    "id": "custom-4",
+    "name": "Sev Tameta",
+    "price": 6.50,
+    "image": "/assets/Curries/sev_tameta.jpg",
+    "ingredients": ["Tomatoes", "Onion", "Sev", "Spices", "Coriander"]
+  },
+  {
+    "id": "custom-5",
+    "name": "Dudhi-Chanani Dal Nu Shaak",
+    "price": 6.70,
+    "image": "/assets/Curries/dudhi_chanani_dal.jpg",
+    "ingredients": ["Bottle gourd", "Tomato", "Green chili", "Spices", "Coriander"]
+  },
+  {
+    "id": "custom-6",
+    "name": "Bhindi Nu Shaak",
+    "price": 6.90,
+    "image": "/assets/Curries/bhindi_masala.jpg",
+    "ingredients": ["Okra", "Onion", "Tomato", "Spices", "Coriander"]
+  },
+  {
+    "id": "custom-7",
+    "name": "Tindora Nu Shaak",
+    "price": 6.30,
+    "image": "/assets/Curries/tindora_shak.jpg",
+    "ingredients": ["Ivy gourd", "Onion", "Spices", "Coriander"]
+  },
+  {
+    "id": "custom-8",
+    "name": "Karela Nu Shaak",
+    "price": 7.20,
+    "image": "/assets/Curries/karela_shak.jpg",
+    "ingredients": ["Bitter gourd", "Onion", "Tomato", "Spices", "Coriander"]
+  },
+  {
+    "id": "custom-9",
+    "name": "Gathiya Nu Shaak",
+    "price": 6.10,
+    "image": "/assets/Curries/gathiya_shak.jpg",
+    "ingredients": ["Gathiya", "Tomato", "Onion", "Spices"]
+  },
+  {
+    "id": "custom-10",
+    "name": "Mixed Vegetable Shaak",
+    "price": 6.40,
+    "image": "/assets/Curries/mix_veg.jpg",
+    "ingredients": ["Carrot", "Beans", "Potato", "Peas", "Spices"]
+  },
+  {
+    "id": "custom-12",
+    "name": "Paneer Butter Masala",
+    "price": 7.0,
+    "image": "/assets/Curries/paneer_butter_masala.jpg",
+    "ingredients": ["Paneer", "Tomato", "Butter", "Cream", "Spices"]
+  },
+  {
+    "id": "custom-13",
+    "name": "Chana Masala",
+    "price": 6.60,
+    "image": "/assets/Curries/chana_masala.jpg",
+    "ingredients": ["Chickpeas", "Onion", "Tomato", "Spices", "Coriander"]
+  },
+  {
+    "id": "custom-14",
+    "name": "Aloo Gobi",
+    "price": 6.20,
+    "image": "/assets/Curries/aloo_gobi.jpg",
+    "ingredients": ["Potato", "Cauliflower", "Tomato", "Spices", "Coriander"]
+  },
+  {
+    "id": "custom-15",
+    "name": "Baingan Bharta",
+    "price": 6.80,
+    "image": "/assets/Curries/baingan_bharta.jpg",
+    "ingredients": ["Brinjal", "Onion", "Tomato", "Garlic", "Spices"]
+  },
+  {
+    "id": "custom-16",
+    "name": "Dal Makhani",
+    "price": 7.50,
+    "image": "/assets/Curries/dal_makhani.jpg",
+    "ingredients": ["Black lentils", "Kidney beans", "Butter", "Cream", "Spices"]
+  },
+  {
+    "id": "custom-17",
+    "name": "Sarson Da Saag",
+    "price": 6.70,
+    "image": "/assets/Curries/sarson_da_saag.jpg",
+    "ingredients": ["Mustard greens", "Spinach", "Maize flour", "Spices", "Butter"]
+  },
+  {
+    "id": "custom-18",
+    "name": "Rajma Masala",
+    "price": 6.40,
+    "image": "/assets/Curries/rajma_masala.jpg",
+    "ingredients": ["Kidney beans", "Onion", "Tomato", "Spices", "Coriander"]
+  },
+  {
+    "id": "custom-19",
+    "name": "Paneer Tikka Masala",
+    "price": 7.30,
+    "image": "/assets/Curries/paneer_tikka_masala.jpg",
+    "ingredients": ["Paneer", "Yogurt", "Tomato", "Spices", "Cream"]
+  },
+  {
+    "id": "custom-20",
+    "name": "Kadai Paneer",
+    "price": 7.0,
+    "image": "/assets/Curries/kadai_paneer.jpg",
+    "ingredients": ["Paneer", "Bell pepper", "Onion", "Tomato", "Spices"]
+  },
+  {
+    "id": "custom-21",
+    "name": "Aloo Methi",
+    "price": 6.30,
+    "image": "/assets/Curries/aloo_methi.jpg",
+    "ingredients": ["Potato", "Fenugreek leaves", "Spices", "Oil"]
+  },
+  {
+    "id": "custom-22",
+    "name": "Paneer Bhurji",
+    "price": 6.90,
+    "image": "/assets/Curries/paneer_bhurji.jpg",
+    "ingredients": ["Paneer", "Onion", "Tomato", "Green chili", "Spices"]
+  },
+  {
+    "id": "custom-23",
+    "name": "Malai Kofta",
+    "price": 7.20,
+    "image": "/assets/Curries/malai_kofta.jpg",
+    "ingredients": ["Paneer", "Potato", "Tomato", "Cream", "Spices"]
+  },
+  {
+    "id": "custom-24",
+    "name": "Mutter Paneer",
+    "price": 7.10,
+    "image": "/assets/Curries/mutter_paneer.jpg",
+    "ingredients": ["Paneer", "Green peas", "Tomato", "Onion", "Spices"]
+  },
+  {
+    "id": "custom-25",
+    "name": "Navratan Korma",
+    "price": 7.50,
+    "image": "/assets/Curries/navratan_korma.jpg",
+    "ingredients": ["Mixed vegetables", "Paneer", "Cashew", "Cream", "Spices"]
+  },
+  {
+    "id": "custom-26",
+    "name": "Paneer Lababdar",
+    "price": 7.40,
+    "image": "/assets/Curries/paneer_lababdar.jpg",
+    "ingredients": ["Paneer", "Tomato", "Onion", "Cream", "Spices"]
+  }
+]

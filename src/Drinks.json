@@ -1,0 +1,92 @@
+[
+  {
+    "id": "drink-1",
+    "name": "Indian Masala Chai",
+    "image": "../assets/chai.jpg",
+    "price": 1.50
+  },
+  {
+    "id": "drink-2",
+    "name": "Mango Lassi",
+    "image": "../assets/Drinks/mangolassi.jpg",
+    "price": 2.50
+  },
+  {
+    "id": "drink-3",
+    "name": "Salted Lassi",
+    "image": "../assets/Drinks/saltedlassi.jpg",
+    "price": 2.00
+  },
+  {
+    "id": "drink-4",
+    "name": "Butter Milk",
+    "image": "../assets/Drinks/mangolassi.jpg",
+    "price": 1.00
+  },
+  {
+    "id": "drink-5",
+    "name": "Sweet Lemon Water (Nimbu Sarbat)",
+    "image": "../assets/Drinks/nimbusarbat.jpg",
+    "price": 1.50
+  },
+  {
+    "id": "drink-6",
+    "name": "Coca-cola",
+    "image": "../assets/Drinks/cocacola.png",
+    "price": 1.50
+  },
+  {
+    "id": "drink-7",
+    "name": "Pepsi",
+    "image": "../assets/Drinks/pepsi.jpg",
+    "price": 1.50
+  },
+  {
+    "id": "drink-8",
+    "name": "Sprite",
+    "image": "../assets/Drinks/sprite.jpg",
+    "price": 1.50
+  },
+  {
+    "id": "drink-9",
+    "name": "Coke-Diet",
+    "image": "../assets/Drinks/coke-diet.jpg",
+    "price": 1.50
+  },
+  {
+    "id": "drink-10",
+    "name": "Pepsi Max Zero Sugar",
+    "image": "../assets/Drinks/pepsimax.jpg",
+    "price": 1.50
+  },
+  {
+    "id": "drink-11",
+    "name": "Sprite Lemon Zero",
+    "image": "../assets/Drinks/spritezero.jpg",
+    "price": 1.50
+  },
+  {
+    "id": "drink-12",
+    "name": "Passion Fruit Juice",
+    "image": "../assets/Drinks/passionfruitjuice.jpg",
+    "price": 3.00
+  },
+  {
+    "id": "drink-13",
+    "name": "Mazza",
+    "image": "../assets/Drinks/mazza.jpg",
+    "price": 1.80
+  },
+  {
+    "id": "drink-14",
+    "name": "Fanta",
+    "image": "../assets/Drinks/fanta.jpg",
+    "price": 1.50
+  },
+  {
+    "id": "drink-15",
+    "name": "Jeera Soda",
+    "image": "../assets/Drinks/jeerasoda.jpg",
+    "price": 2.00
+  }
+]

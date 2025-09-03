@@ -1,0 +1,100 @@
+{
+  "gujarati_nasto": [
+    {
+      "id": "nasto-1",
+      "name": "Papdi",
+      "price": "10 per kg",
+      "ingredients": ["All-purpose flour", "Carom seeds", "Salt", "Oil"],
+      "type": "Fried",
+      "image": "/assets/Nasto/papdi.jpg"
+    },
+    {
+      "id": "nasto-2",
+      "name": "Gathiya",
+      "price": "12 per kg",
+      "ingredients": ["Gram flour", "Salt", "Carom seeds", "Oil"],
+      "type": "Fried",
+      "image": "/assets/Nasto/gathiya.jpg"
+    },
+    {
+      "id": "nasto-3",
+      "name": "Sev",
+      "price": "10 per kg",
+      "ingredients": ["Gram flour", "Salt", "Turmeric", "Oil"],
+      "type": "Fried",
+      "image": "/assets/Nasto/sev.jpg"
+    },
+    {
+      "id": "nasto-4",
+      "name": "Chavanu",
+      "price": "10 per kg",
+      "ingredients": ["Puffed rice", "Sev", "Peanuts", "Chana dal", "Curry leaves", "Salt", "Spices"],
+      "type": "Mixture",
+      "image": "/assets/Nasto/chavanu.jpg"
+    },
+    {
+      "id": "nasto-5",
+      "name": "Sakkarphara",
+      "price": "10 per kg",
+      "ingredients": ["All-purpose flour", "Sugar", "Oil"],
+      "type": "Sweet Snack",
+      "image": "/assets/Nasto/sakkarphara.jpg"
+    },
+    {
+      "id": "nasto-6",
+      "name": "Chakri",
+      "price": "10 per kg",
+      "ingredients": ["Rice flour", "Gram flour", "Carom seeds", "Salt", "Oil"],
+      "type": "Fried",
+      "image": "/assets/Nasto/chakri.jpg"
+    },
+    {
+      "id": "nasto-7",
+      "name": "Nylon Sev",
+      "price": "11 per kg",
+      "ingredients": ["Gram flour", "Salt", "Oil"],
+      "type": "Fried",
+      "image": "/assets/Nasto/nylonsev.jpg"
+    },
+    {
+      "id": "nasto-8",
+      "name": "Banana Wafers",
+      "price": "10 per kg",
+      "ingredients": ["Raw banana", "Salt", "Oil"],
+      "type": "Fried",
+      "image": "/assets/Nasto/bananawafers.jpg"
+    },
+    {
+      "id": "nasto-9",
+      "name": "Pauva Chevdo",
+      "price":"10 per kg",
+      "ingredients": ["Flattened rice", "Sev", "Peanuts", "Raisins", "Curry leaves", "Salt", "Spices"],
+      "type": "Mixture",
+      "image": "/assets/Nasto/pauvachevdo.jpg"
+    },
+    {
+      "id": "nasto-10",
+      "name": "Sev Chevdo",
+      "price": "10 per kg",
+      "ingredients": ["Sev", "Peanuts", "Puffed rice", "Chana dal", "Curry leaves", "Salt", "Spices"],
+      "type": "Mixture",
+      "image": "/assets/Nasto/sevchevdo.jpg"
+    },
+    {
+      "id": "nasto-11",
+      "name": "Farsi Poori",
+      "price": "10 per kg",
+      "ingredients": ["All-purpose flour", "Semolina", "Carom seeds", "Black pepper", "Salt", "Oil"],
+      "type": "Fried",
+      "image": "/assets/Nasto/farsipoori.jpg"
+    },
+    {
+      "id": "nasto-12",
+      "name": "Panipuri Puries",
+      "price": "9 per 100pc",
+      "ingredients": ["Semolina", "All-purpose flour", "Salt", "Oil"],
+      "type": "Fried",
+      "image": "/assets/Nasto/puries.jpg"
+    }
+  ]
+}
