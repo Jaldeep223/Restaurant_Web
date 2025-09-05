@@ -38,7 +38,7 @@ const AboutUs = () => {
 
           <div className="w-full md:w-1/2 text-center md:text-left text-black space-y-4 sm:space-y-6 text-base sm:text-lg md:text-xl lg:text-2xl">
             <p>
-              At Tiffin Box, we deliver healthy, hygienic, and delicious meals
+              At Tiffinity, we deliver healthy, hygienic, and delicious meals
               straight to your doorstep. Every dish is made with fresh
               ingredients, balancing flavor and nutrition, so you can enjoy the
               comfort of home-cooked meals anytime.

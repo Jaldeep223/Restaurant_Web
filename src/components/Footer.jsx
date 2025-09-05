@@ -52,7 +52,7 @@ const Footer = () => {
                 href="mailto:tiffinbox223@gmail.com"
                 className="hover:text-white"
               >
-                tiffinbox223@gmail.com
+                tiffinity223@gmail.com
               </a>
             </p>
             <p className="flex items-center gap-2">
@@ -63,7 +63,7 @@ const Footer = () => {
 
           {/* Right Column - Branding + Social Media */}
           <div className="flex flex-col items-center justify-center space-y-4">
-            <h2 className="text-2xl font-bold text-orange-500">Tiffin Box</h2>
+            <h2 className="text-2xl font-bold text-orange-500">Tiffinity</h2>
             <p className="text-gray-300">Fresh & Healthy Meals Delivered</p>
             <div className="flex gap-6 text-orange-500 mt-2">
               <a

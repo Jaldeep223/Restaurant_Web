@@ -1,3 +1,4 @@
+
 import React from "react";
 import { Routes, Route, useNavigate } from "react-router-dom";
 import Tiffin from "./Tiffin";
@@ -5,7 +6,6 @@ import Drinks from "./Drinks";
 import StreetFood from "./StreetFood";
 import CustomMenu from "./CustomMenu";
 import Nasto from "./Nasto";
-
 
 // Import images for each section
 import TiffinImg from "../assets/BackgroundImage/tiffin.webp";
@@ -24,9 +24,8 @@ const OrderNowHome = () => {
     { name: "Tiffin Menu", path: "tiffin", image: TiffinImg },
     { name: "Street Food", path: "streetfood", image: StreetFoodImg },
     { name: "Indian Curries", path: "custom", image: CustomMenuImg },
-    { name: "Gujarati Nasto", path: "nasto", image: NastoImg },
+    { name: "Namkeen (Savouries)", path: "nasto", image: NastoImg },
     { name: "Drinks", path: "drinks", image: DrinksBg },
-    
   ];
 
   return (
@@ -42,11 +41,12 @@ const OrderNowHome = () => {
 
       {/* Page content */}
       <div className="relative z-20 pt-32 px-4">
-        <h1 className="text-4xl font-bold text-center mb-10 text-orange-500">
+        <h1 className="text-4xl font-bold text-center mb-10 text-yellow-300">
           Order Online - Our Full Menu
         </h1>
 
-        <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-6">
+        {/* Grid with 2 boxes on mobile */}
+        <div className="max-w-6xl mx-auto grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-6">
           {sections.map((section, idx) => (
             <div
               key={idx}
@@ -63,7 +63,7 @@ const OrderNowHome = () => {
               <div className="absolute inset-0 bg-black/50"></div>
 
               {/* Section name */}
-              <span className="relative text-white text-2xl font-bold text-center px-4">
+              <span className="relative text-white text-lg sm:text-xl md:text-2xl font-bold text-center px-4">
                 {section.name}
               </span>
             </div>
@@ -84,7 +84,6 @@ const OrderNow = () => {
         <Route path="custom" element={<CustomMenu />} />
         <Route path="drinks" element={<Drinks />} />
         <Route path="nasto" element={<Nasto />} />
-        <Route path="custom" element={<CustomMenu />} />
       </Routes>
     </div>
   );

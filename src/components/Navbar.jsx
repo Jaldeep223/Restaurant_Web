@@ -24,7 +24,7 @@ const Navbar = ({ scrollToSection }) => {
     { name: "Street Food", path: "/menu/streetfood" },
     { name: "Indian Curries", path: "/menu/custommenu" },
     { name: "Drinks", path: "/menu/drinks" },
-    { name: "Nasto (Savouries)", path: "/menu/nasto" },
+    { name: "Namkeen (Savouries)", path: "/menu/nasto" },
   ];
 
   const handleLinkClick = (link) => {
@@ -119,13 +119,13 @@ const Navbar = ({ scrollToSection }) => {
 
       {/* Mobile Menu */}
       <div className={`md:hidden transition-max-height duration-300 overflow-hidden ${isOpen ? "max-h-screen" : "max-h-0"}`}>
-        <ul className="flex flex-col bg-black/90 p-4 space-y-2">
+        <ul className="font-speacial flex flex-col bg-black/90 p-4 space-y-2">
           {navLinks.map((link) => (
             <li key={link.name}>
               {link.name === "Menu" ? (
                 <div>
                   <button
-                    className="w-full flex justify-between items-center px-3 py-2 text-white rounded hover:bg-orange-500 hover:text-black transition-colors"
+                    className="w-full flex items-center gap-1 px-3 py-2 text-white rounded hover:bg-orange-500 hover:text-black transition-colors"
                     onClick={() => setMenuOpen(!menuOpen)}
                   >
                     Menu <LuChevronDown className={`${menuOpen ? "rotate-180" : ""} transition-transform`} />

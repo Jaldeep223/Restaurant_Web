@@ -11,7 +11,7 @@ const About = () => {
 
   const paragraphs = [
     {
-      text: "At Tiffin Box, we are passionate about delivering health, hygiene, and happiness through every meal. Founded in 2025, our startup was born from a simple yet powerful idea: everyone deserves access to wholesome, nutritious food without compromising on taste.",
+      text: "At Tiffinity, we are passionate about delivering health, hygiene, and happiness through every meal. Founded in 2025, our startup was born from a simple yet powerful idea: everyone deserves access to wholesome, nutritious food without compromising on taste.",
       img: About_1,
     },
     {

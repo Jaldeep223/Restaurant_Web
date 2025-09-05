@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import { LuEye, LuEyeOff } from "react-icons/lu"; // 👈 icons
+import { LuEye, LuEyeOff } from "react-icons/lu"; 
 
 const LoginPage = () => {
   const [userId, setUserId] = useState("");
@@ -72,7 +72,3 @@ const LoginPage = () => {
 };
 
 export default LoginPage;
-
-
-
-// import { LuEye, LuEyeOff } from "react-icons/lu"

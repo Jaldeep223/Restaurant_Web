@@ -1,6 +1,5 @@
-
 import React, { useRef } from "react";
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, useLocation, Navigate } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import BackgroundImg from "./components/BackgroundImg";
 import AboutUs from "./components/AboutUs";
@@ -28,6 +27,8 @@ function App() {
   const cateringRef = useRef(null);
   const contactRef = useRef(null);
 
+  const location = useLocation(); // detect current route
+
   const scrollToSection = (section) => {
     const refs = { about: aboutRef, catering: cateringRef, contact: contactRef };
     if (refs[section]?.current) {
@@ -41,37 +42,55 @@ function App() {
     <CartProvider>
       <ScrollToTop />
       <Navbar scrollToSection={scrollToSection} />
-      <Routes>
-        <Route
-          path="/"
-          element={
-            <>
-              <BackgroundImg />
-              <div ref={aboutRef}><AboutUs /></div>
-              <div ref={cateringRef}><Catering /></div>
-              <div ref={contactRef}><ContactUs /></div>
-            </>
-          }
-        />
-        <Route path="/menu/tiffin" element={<Tiffin />} />
-        <Route path="/menu/streetfood" element={<StreetFood />} />
-        <Route path="/menu/custommenu" element={<CustomMenu />} />
-        <Route path="/menu/drinks" element={<Drinks />} />
-        <Route path="/menu/nasto" element={<Nasto />} />
-        <Route path="/about" element={<About />} />
-        <Route path = "/catering" element ={<Catering/>}/>
-        <Route path="/contact" element={<ContactUs />} />
-        <Route path="/login" element={<LoginPage />} />
-        <Route path="/register" element={<RegisterPage />} />
-        <Route path="/cart" element={<Cart />} />
-        <Route path="/payment" element={<PaymentPage />} />
-        <Route path="/order-now/*" element={<OrderNow />} />
-      </Routes>
-      <Footer />
+
+      <div className="flex flex-col min-h-screen w-full overflow-hidden">
+        <div className="flex-grow w-full overflow-hidden">
+          <Routes>
+            {/* Redirect alternative home paths */}
+            <Route path="/Restaurant_Web" element={<Navigate to="/" replace />} />
+
+            {/* Home Page */}
+            <Route
+              path="/"
+              element={
+                <>
+                  <BackgroundImg />
+                  <div ref={aboutRef} className="w-full overflow-hidden">
+                    <AboutUs />
+                  </div>
+                  <div ref={cateringRef} className="w-full overflow-hidden">
+                    <Catering />
+                  </div>
+                  <div ref={contactRef} className="w-full overflow-hidden">
+                    <ContactUs />
+                  </div>
+                </>
+              }
+            />
+
+            {/* Other Pages */}
+            <Route path="/menu/tiffin" element={<Tiffin />} />
+            <Route path="/menu/streetfood" element={<StreetFood />} />
+            <Route path="/menu/custommenu" element={<CustomMenu />} />
+            <Route path="/menu/drinks" element={<Drinks />} />
+            <Route path="/menu/nasto" element={<Nasto />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/catering" element={<Catering />} />
+            <Route path="/contact" element={<ContactUs />} />
+            <Route path="/login" element={<LoginPage />} />
+            
+            <Route path="/register" element={<RegisterPage />} />
+            <Route path="/cart" element={<Cart />} />
+            <Route path="/payment" element={<PaymentPage />} />
+            <Route path="/order-now/*" element={<OrderNow />} />
+          </Routes>
+        </div>
+
+        {/* Footer only visible on Home */}
+        {location.pathname === "/" && <Footer />}
+      </div>
     </CartProvider>
   );
 }
 
 export default App;
-
-
